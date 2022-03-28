@@ -12,3 +12,7 @@
 172.31.18.245
 
 
+[mywebserver:vars]
+mywebpackageforubuntu= apache2
+mywebpackageforRedHat= httpd
+
