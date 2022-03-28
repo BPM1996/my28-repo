@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: i want to install wget on ansible ubuntu node
+     apt:
+       name: wget
+       state: present
+       
